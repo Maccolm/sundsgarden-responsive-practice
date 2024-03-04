@@ -1,0 +1,61 @@
+
+body{
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color: #fff;
+}
+a{
+	font-family: 'Source Sans Pro';
+	line-height: 1.4;
+}
+h1{
+	font-family: "Poppins";
+	font-weight: 500;
+	font-size: 84px;
+	line-height: 1.21;
+	letter-spacing: -2px;
+}
+// Оболочка wrapper =========================================================
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	overflow-x: hidden;
+	// Прижимаємо footer
+	> main {
+		flex: 1 1 auto;
+		width: 100%;
+	}
+	// Фікс для слайдерів
+	> *{
+		min-width: 0;
+	}
+}
+.logo{
+	font-family: "Actor";
+	line-height: 1.5;
+	letter-spacing: -0.25px;
+	font-size: 24px;
+}
+
+// Обмежуючий контейнер =========================================================
+[class*=__container] {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	@media(max-width: 635px) {
+		padding: 0 10px 0 10px;
+	}
+}
+[class*="page"] {
+	min-height: 100vh;
+	@media (max-width: 768px) {
+		min-height: 100vh;
+	}
+	@media(max-height: 600px) {
+		min-height: 100vh;
+	}
+}
