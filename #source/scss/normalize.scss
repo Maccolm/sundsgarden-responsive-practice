@@ -1,19 +1,17 @@
 
 body{
-	font-family: 'Source Sans Pro';
+	font-family: 'Source Sans 3';
 	font-weight: 400;
 	color: #fff;
 }
 a{
-	font-family: 'Source Sans Pro';
+	font-family: 'Source Sans 3';
 	line-height: 1.4;
+	color: #fff;
 }
 h1{
 	font-family: "Poppins";
 	font-weight: 500;
-	font-size: 84px;
-	line-height: 1.21;
-	letter-spacing: -2px;
 }
 // Оболочка wrapper =========================================================
 .wrapper {
@@ -36,9 +34,6 @@ h1{
 }
 .logo{
 	font-family: "Actor";
-	line-height: 1.5;
-	letter-spacing: -0.25px;
-	font-size: 24px;
 }
 
 // Обмежуючий контейнер =========================================================
