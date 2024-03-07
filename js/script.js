@@ -1,9 +1,9 @@
-let button = document.getElementById('dots')
-let menu = document.querySelector('.navigation')
+const button = document.getElementById('dots')
+if (button) {
+	const menu = document.querySelector('.navigation')
+	button.addEventListener("click", function(){
+		button.classList.toggle('active')
+		menu.classList.toggle('opened')
+	})
+}
 
-addEventListener("click", menuBurger)
-
-function menuBurger() {
-	button.classList.toggle('active')
-	menu.classList.toggle('opened')
-} 
